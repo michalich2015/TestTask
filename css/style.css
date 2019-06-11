@@ -1,0 +1,219 @@
+ header a{
+	 text-decoration:none;
+	 color:#fff;
+ }
+ header a:hover{
+	 color:#fff;
+	}
+ header{
+	 display:flex;
+	 justify-content:space-between;
+	 padding:10px;
+	 background:#0070AF;
+ }
+ .headerButton{
+	 cursor:pointer;
+ }
+ .header__section{
+	 display:flex;
+	 align-items:center;
+	 width:1000px;
+	 margin:0 auto;
+ }
+ .header__item{
+	 padding:10px 15px;
+    font-size: 1.2em;
+	margin-left:15px;
+	margin-top:70px;
+ }
+ .prof{
+	font-size: 2.0em;
+	margin-left:28px;
+	 position:absolute;
+	 color:#fff;
+	 font-weight:490;
+	 margin-top:-25px;
+ }
+ .carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+    background-color:#0070AF ;
+    background-size: 70%, 70%;
+    border-radius: 50%;
+}
+
+.prevcontent{
+    width: 1000px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1.1fr 2fr;
+    margin: 0 auto;
+}
+.fhalf{
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.shalf{
+    margin-left: 28px;
+    margin-top: 25px;
+	line-height: 1.7;
+
+}
+.slider{
+	margin-top:40px;
+}
+.main .shalf p{
+    margin-top: 20px;
+    font-size: 1.2em;
+    opacity: 0.7;    
+}
+.biographe
+{
+	font-size: 1.65em;
+
+}
+
+.preise{
+    font-size: 1.65em;
+	margin-left:28px;
+	
+}
+.main{
+	margin-bottom:40px;
+}
+.aftercontent{
+    width: 1000px;
+    margin: 0 auto;
+	display: grid;
+    grid-template-columns: 2fr 1.1fr;
+}
+.preise{
+	margin-left:28px;
+	margin-top:35px;
+	
+}
+.buttext{
+	margin-left:28px;
+    font-size: 1.2em;
+    opacity: 0.7;    
+	line-height: 1.7;
+
+}
+.sbuthalf{
+	margin-left: 30px;
+    margin-top: 100px;
+}
+footer{
+	width:100%;
+	height:auto;
+	background:#0070AF;
+	margin-top:0 auto;
+	padding-top:25px;
+}
+.fcont{
+	width:1000px;
+	margin:0 auto;
+	display: grid;
+    grid-template-columns: 2fr 1.1fr;
+}
+.ffooter{
+	color: #fff;
+	font-size: 1.45em;
+	margin-left:28px;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.sfooter{
+	margin-left:30px;
+	color: #fff;
+	font-size: 1.20em;
+}
+.fa-mobile{
+	font-size: 1.4em;
+	margin-right:5px;
+	margin-left:5px;
+}
+.fa-envelope{
+	font-size: 1.40em;
+	margin-right:5px;
+}
+.fa-home{
+	font-size: 1.40em;
+	margin-right:5px;
+}
+@media screen and (max-width: 1000px) {
+.prevcontent{
+	width:100%;
+ }
+.fcont{
+	width:100%;
+	
+}
+.aftercontent {
+	width:100%;
+}
+.header__section{
+	width:100%;
+	
+}
+  .header__item{
+	 padding:5px 5px;
+	margin-left:24px;
+  }
+}
+@media screen and (max-width: 890px) {
+	.prof{
+	margin-top:-55px;
+	font-size: 2.5em;
+ }
+.header__section{
+	width:100%;
+	display:block;
+	margin-top:50px;
+}
+ .header__item{
+	font-size: 1.8em;
+	margin-top:0px;
+
+ }
+}
+@media screen and (max-width: 460px) {
+		.prof{
+	margin-top:-45px;
+	font-size: 1.5em;
+ }
+ .header__item{
+	font-size: 1.3em;
+	margin-top:0px;
+
+ }
+ 
+}
+@media screen and (max-width: 650px) {
+.prevcontent{
+	display:block;
+ }
+ .fhalf{
+    margin-top: 30px;
+}
+.sbuthalf{
+	margin-left: 30px;
+    margin-top: 30px;
+}
+.aftercontent {
+	display:block;
+}
+
+.ffooter{
+	
+}
+}
+@media screen and (max-width: 700px) {
+.fcont{
+	display:block;
+}
+.sfooter p{
+	margin-bottom:0px;	
+		margin-top:20px;
+}
+}
